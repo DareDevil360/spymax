@@ -237,7 +237,7 @@ echo -e "\e[96m                                                    \e[0m"
 echo -e "\e[96m                             \e[93mRUN, SPYMAX V1.0\e[96m   \e[0m"                                                    
 echo -e "\e[96m                         TYPE \e[91mactive\e[96m to RUN SPYMAX \e[96m          \e[0m"
 echo -e "\e[96m                                 \e[93m\e[96m              \e[96m \e[0m"                                                    
-echo -en "\e[32mType [\e[93m\e[93mactive/\e[32m\e[93m\e[32m]: \e[0m "
+echo -en "\e[32mType [\e[93m\e[93mactive\e[32m\e[93m\e[32m]: \e[0m "
 read p
 if [ "$p" = "setupcontrol" ];
 then
